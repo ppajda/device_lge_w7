@@ -38,6 +38,20 @@ TARGET_BOOTLOADER_BOARD_NAME := w7
 # Kernel
 TARGET_KERNEL_CONFIG := stormysea_defconfig
 
+# Optimizations
+CLANG_O3 := true
+STRICT_ALIASING := false
+KRAIT_TUNINGS := false
+GRAPHITE_OPTS := false
+ENABLE_GCCONLY := true
+
+# Kernel Toolchain
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
+TARGET_GCC_VERSION_ARM := uber-4.9
+
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-uber
+
 # Filesystem,
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 16777216
