@@ -9,11 +9,10 @@
     "remote":      "to-d",
     "repository":  "device_lge_msm8226-common",
     "target_path": "device/lge/msm8226-common",
-    "branch":     "6.0.1"
+    "branch":      "6.0.1"
   },
   {
-    "remote":      "orion",
-    "repository":  "device_qcom_common",
+    "repository":  "TeamOrion/device_qcom_common",
     "target_path": "device/qcom/common",
     "branch":      "6.0.1"
   },
