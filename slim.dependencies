@@ -1,0 +1,42 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "SlimShadys/device_lge_w7",
+    "target_path": "device/lge/w7",
+    "branch":      "mm6.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "SlimShadys/device_lge_msm8226-common",
+    "target_path": "device/lge/msm8226-common",
+    "branch":      "mm6.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "GrinningFerret/android_kernel_lge_msm8226",
+    "target_path": "kernel/lge/msm8226",
+    "branch":      "mm6.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TheMuppets/proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "cm-13.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "SlimRoms/android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch":      "mm6.0"
+  },
+  {
+    "remote":      "bb",
+    "repository":  "DespairFactor/arm-eabi-4.9",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber"
+  },
+  {
+    "remote":      "bb",
+    "repository":  "DespairFactor/arm-linux-androideabi-4.9",
+    "target_path": "prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber"
+  }
+]
