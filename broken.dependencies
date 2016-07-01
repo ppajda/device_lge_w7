@@ -1,7 +1,7 @@
 [
   {
     "remote":      "github",
-    "repository":  "SlimShadys/device_lge_w7",
+    "repository":  "mosimchah/device_lge_w7",
     "target_path": "device/lge/w7",
     "branch":      "mm6.0"
   },
