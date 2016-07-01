@@ -1,5 +1,5 @@
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Broken stuff.
+$(call inherit-product, vendor/broken/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
