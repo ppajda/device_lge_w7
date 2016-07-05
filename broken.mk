@@ -11,4 +11,8 @@ PRODUCT_NAME := broken_w7
 PRODUCT_MANUFACTURER := lge
 PRODUCT_MODEL := w7
 
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Moshe Barash (mosimchah)"
+
 $(call inherit-product, device/lge/w7/full_w7.mk)
