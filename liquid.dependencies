@@ -3,11 +3,11 @@
     "remote":      "github",
     "repository":  "mosimchah/device_lge_w7",
     "target_path": "device/lge/w7",
-    "branch":      "mm6.0"
+    "branch":      "liquid-dark"
   },
   {
     "remote":      "github",
-    "repository":  "mosimchah/device_lge_msm8226-common",
+    "repository":  "SlimShadys"/device_lge_msm8226-common",
     "target_path": "device/lge/msm8226-common",
     "branch":      "mm6.0"
   },
