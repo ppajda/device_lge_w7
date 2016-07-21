@@ -4,6 +4,10 @@
    <remote  name="bb"
           fetch="https://bitbucket.org/"/>
           
+   <remote  name="github"
+          fetch="git://github.com/"
+          review="https://review.slimroms.org/"/>
+          
 <project path="device/lge/w7" name="mosimchah/device_lge_w7" remote="github" revision="tesla-m" />
 <project path="device/lge/msm8226-common" name="mosimchah/device_lge_msm8226-common" remote="github" revision="mm6.0" />
 <project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="mm6.0" />
