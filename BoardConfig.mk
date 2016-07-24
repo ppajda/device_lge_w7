@@ -25,16 +25,14 @@
 # Common specific options in device_w7.mk
 -include device/lge/msm8226-common/BoardConfigCommon.mk
 
- # Vendor Init
- TARGET_UNIFIED_DEVICE := true
--TARGET_INIT_VENDOR_LIB := libinit_msm
--TARGET_LIBINIT_DEFINES_FILE := device/lge/w7/init/init_w7.cpp
-+TARGET_INIT_VENDOR_LIB := libinit_w7
- TARGET_OTA_ASSERT_DEVICE := w7,w7ds,w7n,w7nds
-+TARGET_RECOVERY_DEVICE_MODULES := libinit_w7
- TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w7
- 
- # Bootloader
+# Vendor Init
+TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_w7
+TARGET_OTA_ASSERT_DEVICE := w7,w7ds,w7n,w7nds
+TARGET_RECOVERY_DEVICE_MODULES := libinit_w7
+TARGET_RELEASETOOLS_EXTENSIONS := device/lge/w7
+
+# Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := w7
 
 # Kernel
