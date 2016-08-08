@@ -38,7 +38,7 @@ TARGET_BOOTLOADER_BOARD_NAME := w7
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK := device/lge/w7/mkbootimg.mk
 TARGET_KERNEL_ARCH := arm
-TARGET_KERNEL_CONFIG := stormysea_defconfig
+TARGET_KERNEL_CONFIG := BlackScreen_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/msm8226
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9-uber/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
