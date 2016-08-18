@@ -1,7 +1,7 @@
 telephony.lteOnGsmDevice=0
 ro.telephony.default_network=3
 
-ro.sf.lcd_density=240
+ro.sf.lcd_density=200
 
 ro.qualcomm.sensors.qmd=false
 ro.qc.sdk.sensors.gestures=true
