@@ -11,61 +11,17 @@
     <remote name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="http://review.cyanogenmod.org/"/>
+    
+     <remote  name="github"
+           fetch="https://github.com/"
+           review="gerrit.dirtyunicorns.com" />
           
-<project path="device/lge/w7" name="mosimchah/device_lge_w7" remote="github" revision="du" />
-<project path="device/lge/msm8226-common" name="mosimchah/device_lge_msm8226-common" remote="github" revision="mm6.0" />
+<project path="device/lge/w7" name="ppajda/device_lge_w7" remote="github" revision="du" />
+<project path="device/lge/msm8226-common" name="ppajda/device_lge_msm8226-common" remote="github" revision="mm6.0" />
 <project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="mm6.0" />
 <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-13.0" />
 <project path="external/sony/boringssl-compat" name="SlimRoms/android_external_sony_boringssl-compat" remote="github" revision="mm6.0" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-#test
-<remove-project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" revision="m-caf" remote="du" />
-#remove-project path="hardware/ril" name="android_hardware_ril" remote="du" revision="m-caf" />
-<project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="slim" revision="mm6.0" />
-#project path="hardware/ril" name="hardware_ril" remote="slim" revision="mm6.0" />
-<project path="hardware/ril-caf" name="hardware_ril" remote="slim" revision="mm6.0-caf" />
-#project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="slim" revision="mm6.0" />
-<project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" remote="slim" revision="mm6.0-caf" />
-<project path="hardware/qcom/power" name="hardware_qcom_power" remote="slim" revision="mm6.0" />
-
-#break
-#remove-project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" revision="m-caf" remote="du" />
-#remove-project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" revision="m-caf-8084" remote="du" />
-#remove-project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" revision="m-caf-8916" remote="du" />
-#remove-project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" revision="m-caf-8960" remote="du" />
-#remove-project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" revision="m-caf-8974" remote="du" />
-#remove-project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" revision="m-caf-8994" remote="du" />
-#project path="hardware/qcom/audio/default" name="hardware_qcom_audio" remote="slim" revision="mm6.0" />
-#project path="hardware/qcom/audio-caf/apq8084" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8084" />
-#project path="hardware/qcom/audio-caf/msm8916" name="android_hardware_qcom_audio" remote="cm" revision="cm-13.0-caf-8916" />
-#project path="hardware/qcom/audio-caf/msm8960" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8960" />
-#project path="hardware/qcom/audio-caf/msm8974" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8974" />
-#project path="hardware/qcom/audio-caf/msm8994" name="hardware_qcom_audio" remote="slim" revision="mm6.0-caf-8994" />
-
-#break
-<remove-project path="hardware/qcom/bt/msm8960" name="android_hardware_qcom_bt" revision="m-caf" remote="du" />
-#remove-project path="hardware/qcom/camera" name="android_hardware_qcom_camera" revision="m-caf" remote="du" />
-#remove-project path="hardware/qcom/display" name="android_hardware_qcom_display" revision="m-caf" remote="du" />
-#remove-project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" revision="m-caf-8084" remote="du" />
-#remove-project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" revision="m-caf-8916" remote="du" />
-#remove-project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" revision="m-caf-8960" remote="du" />
-#remove-project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" revision="m-caf-8974" remote="du" />
-#remove-project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" revision="m-caf-8994" remote="du" />
-#remove-project path="hardware/qcom/gps" name="android_hardware_qcom_gps" revision="m-caf" remote="du" />
-#remove-project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" revision="m-caf" remote="du" />
-#f
-#project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0" />
-<project path="hardware/qcom/bt-caf" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" remote="github" revision="cm-13.0-caf" />
-#project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="slim" revision="mm6.0" />
-#project path="hardware/qcom/display" name="hardware_qcom_display" remote="slim" revision="mm6.0" />
-#project path="hardware/qcom/display-caf/apq8084" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8084" />
-#project path="hardware/qcom/display-caf/msm8916" name="android_hardware_qcom_display" remote="cm" revision="cm-13.0-caf-8916" />
-#project path="hardware/qcom/display-caf/msm8960" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8960" />
-#project path="hardware/qcom/display-caf/msm8974" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8974" />
-#project path="hardware/qcom/display-caf/msm8994" name="hardware_qcom_display" remote="slim" revision="mm6.0-caf-8994" />
-#project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="slim" revision="mm6.0" />
-#project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="slim" revision="mm6.0" />
-#test 
 
 </manifest>
