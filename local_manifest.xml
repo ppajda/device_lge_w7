@@ -15,6 +15,5 @@
 <project path="external/sony/boringssl-compat" name="SlimRoms/android_external_sony_boringssl-compat" remote="github" revision="mm6.0" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
-<project path="device/qcom/sepolicy" name="ppajda/device_qcom_sepolicy" remote="github" revision="du"/>
 
 </manifest>
