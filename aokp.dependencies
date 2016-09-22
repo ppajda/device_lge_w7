@@ -1,7 +1,7 @@
 [
   {
     "remote":      "github",
-    "repository":  "ppajdea/device_lge_w7",
+    "repository":  "ppajda/device_lge_w7",
     "target_path": "device/lge/w7",
     "branch":      "aokp"
   },
