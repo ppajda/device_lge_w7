@@ -1,15 +1,15 @@
 [
   {
     "remote":      "github",
-    "repository":  "mosimchah/device_lge_w7",
+    "repository":  "ppajdea/device_lge_w7",
     "target_path": "device/lge/w7",
-    "branch":      "liquid-dark"
+    "branch":      "aokp"
   },
   {
     "remote":      "github",
-    "repository":  "mosimchah/device_lge_msm8226-common",
+    "repository":  "ppajda/device_lge_msm8226-common",
     "target_path": "device/lge/msm8226-common",
-    "branch":      "mm6.0"
+    "branch":      "6.0.1"
   },
   {
     "remote":      "github",
@@ -21,7 +21,7 @@
     "remote":      "github",
     "repository":  "TheMuppets/proprietary_vendor_lge",
     "target_path": "vendor/lge",
-    "branch":      "cm-13.0"
+    "branch":      "stable/cm-13.0-ZNH5Y"
   },
   {
     "remote":      "github",
