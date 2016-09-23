@@ -3,7 +3,7 @@
 
 <remote name="bb" fetch="https://bitbucket.org/"/>
 
-<project path="device/lge/w7" name="ppajda/device_lge_w7" remote="github" revision="aokp" />
+<project path="device/lge/w7" name="ppajda/device_lge_w7" remote="github" revision="pac" />
 <project path="device/lge/msm8226-common" name="ppajda/device_lge_msm8226-common" remote="github" revision="6.0.1" />
 <project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="mm6.0" />
 <project path="external/sony/boringssl-compat" name="SlimRoms/android_external_sony_boringssl-compat" remote="github" revision="mm6.0" />
