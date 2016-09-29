@@ -43,6 +43,9 @@ TARGET_KERNEL_SOURCE := kernel/lge/msm8226
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9-uber/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 
+# Rom Toolchain
+TARGET_GCC_VERSION_EXP := 4.9-uber
+
 # Optimizations
 CLANG_O3 := true
 STRICT_ALIASING := false
