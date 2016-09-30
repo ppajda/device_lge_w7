@@ -1,5 +1,5 @@
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/configs/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
