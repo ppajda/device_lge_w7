@@ -2,13 +2,13 @@
 <manifest>
   
 <remote name="bb" fetch="https://bitbucket.org/"/>
-<remote name="github" fetch="git://github.com/"/>
+<remote name="ghub" fetch="git://github.com/"/>
           
 <project path="device/lge/w7" name="ppajda/device_lge_w7" remote="github" revision="tipsy" />
-<project path="device/lge/msm8226-common" name="ppajda/device_lge_msm8226-common" remote="github" revision="6.0.1" />
-<project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="github" revision="mm6.0" />
+<project path="device/lge/msm8226-common" name="ppajda/device_lge_msm8226-common" remote="ghub" revision="6.0.1" />
+<project path="kernel/lge/msm8226" name="GrinningFerret/android_kernel_lge_msm8226" remote="ghub" revision="mm6.0" />
 <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="stable/cm-13.0-ZNH5Y" />
-<project path="external/sony/boringssl-compat" name="SlimRoms/android_external_sony_boringssl-compat" remote="github" revision="mm6.0" />
+<project path="external/sony/boringssl-compat" name="SlimRoms/android_external_sony_boringssl-compat" remote="ghub" revision="mm6.0" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="DespairFactor/arm-eabi-4.9" remote="bb" revision="master" />
 <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="DespairFactor/arm-linux-androideabi-4.9" remote="bb" revision="master" />
 
