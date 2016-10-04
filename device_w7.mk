@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/w7/prebuilt/fixup.sh:fixup.sh
 
+# Gello 
+PRODUCT_PACKAGES += \ 
+    Gello 
+
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
