@@ -3,13 +3,13 @@
     "remote":      "github",
     "repository":  "ppajda/device_lge_w7",
     "target_path": "device/lge/w7",
-    "branch":      "aokp"
+    "branch":      "pac"
   },
   {
     "remote":      "github",
     "repository":  "ppajda/device_lge_msm8226-common",
     "target_path": "device/lge/msm8226-common",
-    "branch":      "6.0.1"
+    "branch":      "rr"
   },
   {
     "remote":      "github",
